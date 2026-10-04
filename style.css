@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.card {
+    width: 25%;
+    margin: auto auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card>img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/*                            */
+@media screen and (max-width:425px) {
+    .card {
+        width: 90%;
+        margin: auto;
+        padding: 17px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .card>img {
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+}             
+
+/*                              */
+
+.attribution {
+    margin-top: 10px;
+}
