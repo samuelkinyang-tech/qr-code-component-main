@@ -14,7 +14,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 27px;
+    font-size: 21px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: hsl(218, 44%, 22%);
@@ -22,9 +22,10 @@ h1 {
 
 p {
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 400;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 22px;
     color: gray;
 }
 
@@ -35,22 +36,23 @@ p {
 }
 
 .card {
-    width: 25%;
+    width: 22%;
     display: flex;
     flex-direction: column;
     height: auto;
+    font-family: "Outfit", sans-serif;
     align-items: center;
     justify-content: center;
     margin: auto auto;
-    padding: 20px;
+    padding: 14px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 16px;
     box-shadow: 20;
 }
 
 .card>img {
-    border-radius: 17px;
-    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 12px;
 }
 
 /*                            */
