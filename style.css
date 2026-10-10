@@ -31,7 +31,7 @@ p {
 .card-section {
     display: flex;
     align-items: center;
-    height: 120vh;
+    height: 100vh;
 }
 
 .card {
